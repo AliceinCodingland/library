@@ -1,0 +1,163 @@
+\documentclass[xcolor=dvipsnames,handout]{beamer}
+\usecolortheme[named=Brown]{structure}
+\usetheme{PaloAlto}
+\useoutertheme{infolines}
+
+\usepackage{url}
+
+\newcommand\lingo[1]{\textit{#1}}
+\newcommand\Dash{\unskip\thinspace\textemdash\thinspace\ignorespaces\-}
+\newcommand\prog[1]{\textit{#1}}
+\newcommand\meta[1]{$\langle${\sffamily\itshape #1}$\rangle$}
+\newcommand\bash[1]{\fcolorbox{gray}{green!15}{{\ttfamily\footnotesize #1}}}
+\newcommand\Asana[1]{\hfill \textcolor{gray!50}{\footnotesize Asana's `#1'}}
+
+\author{Library Team}
+\title{A Quick Introduction to GitHub}
+\date{30 January 2014}
+
+\begin{document}
+\maketitle
+
+\section{Name of the Game}
+\begin{frame}
+  \note{How many people already know about git?}
+  \begin{center}
+    GitHub is for \texttt{git}!
+  \end{center}
+\end{frame}
+
+\subsection{GitHub's Definitions}
+\begin{frame}
+  \frametitle{WhatHub?}
+  \begin{description}[<+(1)->]
+  \item[git]
+    an extremely fast, efficient, distributed version control system
+    ideal for the collaborative development of software
+  \item[GitHub]
+    the best way to collaborate with others.
+    Fork, send pull requests, and manage
+    all of your \emph{public} and \emph{private} git repositories
+  \end{description}
+\end{frame}
+
+\subsection{My Definitions}
+\begin{frame}
+  \frametitle{GitHub is for \texttt{git}!}
+  \begin{description}[<+(1)->]
+  \item[git]
+    an extraordinary little command-line tool that
+    keeps a history of the project over time
+  \item[GitHub]
+    a \emph{complement} to git, providing things such as
+    an advanced, commit-integrated issue tracking system,
+    a wiki, and access to various metrics
+  \end{description}
+\end{frame}
+
+\section{Using the Tools}
+\begin{frame}
+  \frametitle{Using the Tools}
+  \begin{center}
+    Git and GitHub are \emph{complementary} to each other \Dash they
+    have different purposes and different tools to work with them.
+  \end{center}
+\end{frame}
+
+\subsection{Git}
+\begin{frame}
+  \frametitle{Major Concepts}
+  \begin{description}[<+(1)->]
+  \item[stage] add specific local changes to a \lingo{staging area},
+    where they can be reviewed
+  \item[commit] finalize local changes, assigning it an identifier and adding it to the log
+  \item[tag] bookmark a state of the repository for later reference (e.\,g.~\texttt{milestone1})
+  \item[push] make your local commits available to everyone
+  \item[pull] update your local copy to mirror GitHub
+  \item[branch] create your own `private working copy' (to add a feature, resolve an issue, etc.)
+    \note{You should always create a tracking branch on GitHub.
+      The `how' of this will vary from client to client,
+        but you can always run \bash{git push origin my-local-branch-name -u}.}
+  \item[merge] \lingo{pull} changes from one branch into another
+  \end{description}
+\end{frame}
+
+\subsubsection{Clients}
+\begin{frame}
+  \frametitle{Clients}
+  \begin{itemize}[<+(1)->]
+  \item Since git is a command-line tool, many people use \lingo{clients}
+  \item \alert{GitHub is \emph{not} a git client} \Dash it is a \emph{complement} to git
+  \item Recommended clients include \prog{Magit}, \prog{SmartGit}, \prog{SourceTree},
+    and platform-dependent clients released by GitHub
+  \item All of the above except \prog{Magit} come with GitHub support baked-in
+  \end{itemize}
+\end{frame}
+
+\subsubsection{Getting Started}
+\begin{frame}
+  \frametitle{Using Git}
+  \begin{itemize}[<+(1)->]
+  \item Download from \url{http://www.git-scm.org}
+  \item Tell git your name and email:
+    \begin{description}[<3->]
+      \setlength\itemindent{-3em}
+    \item[name]  \bash{git config --global user.name \ "Sean Allred"}
+    \item[email] \bash{git config --global user.email  "myemail@..."}
+    \end{description}
+  \item Run \bash{git init} or \bash{git clone \meta{remote}}
+  \end{itemize}
+\end{frame}
+
+\subsection{GitHub}
+\begin{frame}
+  \frametitle{Major Concepts}
+  \begin{description}[<+(1)->]
+  \item[issue] bug reports and feature requests \Asana{task}
+  \item[milestone] major, measureable goal \Asana{task section\slash?}
+  \item[pull request] discussion on a set of changes \mbox{(think~\lingo{pull} and~\lingo{merge})}
+  \item[comment] discussion on a file or particular commit
+  \item[pulse] summary of recent activity in the repository
+  \end{description}
+\end{frame}
+
+\subsubsection{Annoyances}
+\begin{frame}
+  \frametitle{Annoyances}
+  \begin{itemize}[<+(1)->]
+  \item \texttt{email-hurricane-mode} enabled by default \Dash\\ use `Account Settings' to control
+  \item not intuitive if you don't already understand git
+  \end{itemize}
+\end{frame}
+
+\subsubsection{Getting Started}
+\begin{frame}
+  \frametitle{Getting Started}
+  \begin{itemize}[<+(1)->]
+  \item Make an account on \url{http://www.github.com}
+  \item Send your username along to Alexia to get set up
+  \item Attach your git client to your GitHub account
+  \item Start participating!
+  \end{itemize}
+\end{frame}
+
+\section{Further Resources}
+\begin{frame}
+  \frametitle{Further Resources}
+  \begin{itemize}
+  \item \url {http://try.github.io}
+  \item \url {http://git-scm.org/book}
+  \item \url {http://git-scm.com/downloads/guis}
+  \item \url {http://rogerdudler.github.io/git-guide}
+  \item \url {http://training.github.com/resources/videos}
+  \item \url {https://speakerdeck.com/matthewmccullough/intro-to-git-and-github}
+  \item \url {https://speakerdeck.com/matthewmccullough/git-and-github-workflows}
+  \end{itemize}
+\end{frame}
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% TeX-PDF-mode: t 
+%%% End: 
