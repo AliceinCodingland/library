@@ -1,1 +1,0 @@
-According to [[https://codex.wordpress.org/Database_Description][the documentation]], the only database supported by wordpress is mySQL.
