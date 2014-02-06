@@ -1,0 +1,38 @@
+#+TITLE: Use Cases and Edge Cases
+#+DATE: [2014-02-05 Wed]
+
+* Introduction
+This document tells many different stories of the interactions between a few user roles and the system.
+It is designed to exhibit normal program flow and expose possible shortcomings through storytelling. 
+** User Roles
+*** Professors
+Sarah and Andrew both teach at SMC.
+They are able to access the reserve request form via Wordpress.
+*** Request Reviewer
+Cheryl reviews and fulfills the requests received through the Wordpress form.
+
+* Normal Use
+Use cases that depict normal system use.
+These are to clarify the system requirements and ensure we understand the underlying purpose behind what we're doing.
+** Case 1
+Sarah is teaching a class in Anthropology this semester and will need several VHS recordings to show in-class. ...
+
+1. Log-in using SMCM email and ID number.
+2. Select course according to course number and section.
+3. ...
+
+* Abnormal Use
+Uses that aren't 'normal', ones that could cause issues that need to be thought about and resolved.
+** Case 1
+Andrew is teaching a class in Film Studies this semester and needs a specific DVD that is not available on campus, and the same item is reserved by different professors for the same time slot.
+** Case 2
+James has reserved an item for three days starting at noon on Tuesday, however, Donald wants to reserve the same item for three hours the same day from 9-11.
+Will his reserve be possible?
+** Case 3
+James forgot to fill out a required field before trying to check out.
+
+* Error Handling
+Specific cases that would raise ambiguities or otherwise throw an error.
+These need to be resolved.
+** Case 1
+Sarah and Andrew are both teaching a class in Quantum Mechanics and, without awareness of each other, both reserve the same material at the same time. ...

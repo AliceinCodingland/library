@@ -1,0 +1,47 @@
+#+TITLE: Software Requirements Specification: Library Reserve Requests Form
+#+DATE: [2014-02-05 Wed]
+
+* Introduction
+** Purpose
+** Definitions
+- will, shall, must :: indicates mandatory software requirements
+- should, may :: indicates optional software requirements
+** System Overview
+Using Wordpress and Gravity/Ninja Forms, ...
+** References
+- [[link to original requirements document]]
+- [[link to homepage of whichever forms plugin we are using]]
+- etc...
+* Overall Description
+** Product Perspective
+*** Software Interfaces
+Logical interfaces to other systems; likely nil
+*** User Interfaces
+User interfce---definitely should /not/ be nil
+*** Hardware Interfaces
+Probably nil
+*** Communication Interfaces
+Communication with other systems, eg. the database.
+(This seems very similar to [[*Software Interfaces]];
+  research may need to be done concerning the difference therein.)
+*** Memory Constraints
+Any potential constraints on system resources
+  (e.g. must use no more than 640K RAM).
+Likely N/A.
+** Product Functions
+** User Characteristics
+** Constraints, Assumptions and Dependencies
+* Specific Requirements
+** External Interface Requirements
+** Functional Requirements
+** Performance Requirements
+** Design Constraints
+*** Standards Compliance
+** Logical Database Requirement
+** Software System Attributes
+*** Reliability
+*** Availability
+*** Security
+*** Maintainability
+*** Portability
+** Other Requirements
