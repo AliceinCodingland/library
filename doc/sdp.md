@@ -6,16 +6,26 @@ Timeline
 
 Format your timeline like the following:
 
-	March 30:
-	- Some goal to be completed by the thirtieth of march
-	- some other goal
+	
+	Mid March
+	- Have current form capabilities in the new form
+		- Single form for both types
+		- Required field and area for notes
+		- Course field (limited to 10 characters)
+		- Summary report
+		- Multiple Submissions
+		- Allow attachments
+	Early-Mid April
+	- Achieve remaining objectives in new form
+		- Email confirmation
+		- Previous submissions database
+		- Auto fill capabilities
+		- Print requests by course number or faculty member
+	Remainder of semester
+	- General cleanup
+		- Debugging (fixing problems)
+		- Testing
+		- Aesthetic Adjustments
 
-	April 1:
-	- Who makes goals on April Fools'?
-	- I mean, that's just *asking* for trouble.
-
-I will format the above as a pretty thing once all the content is there;
-  Github-Flavored Markdown does not have the ability to create definition lists.
-([Kramdown][1] does, however... I do wish there was support for different engines.)
 
 [1]: http://kramdown.gettalong.org
