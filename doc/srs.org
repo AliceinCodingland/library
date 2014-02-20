@@ -36,7 +36,6 @@ Communication with other systems, eg. the database.
 * Specific Requirements
 - It must have all the functionality of the previous form
 - The user should be able to request multiple submissions
-- 
 ** External Interface Requirements
 ** Functional Requirements
 ** Design Constraints
@@ -46,6 +45,9 @@ Communication with other systems, eg. the database.
 *** Reliability
 *** Availability
 *** Security
+- There are no security measures currently in place
+- A google login can be added at a later date if nesseccary
 *** Maintainability
+- The site will be maintained by the IT depertment
 *** Portability
 ** Other Requirements
