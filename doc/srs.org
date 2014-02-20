@@ -48,6 +48,7 @@ Communication with other systems, eg. the database.
 - The site will be coded using HTML
 *** Standards Compliance
 ** Logical Database Requirement
+- The site will be able to take in a file from the user and save it to the database filed under which professor requested it
 ** Software System Attributes
 *** Reliability
 - We are utilizing Gravity forms, which is a new and up to date plugin formatter
