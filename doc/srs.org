@@ -3,12 +3,20 @@
 
 * Introduction
 ** Purpose
-- To create a new library request site that improves upon the functionality of the previous portal edition.
+To create a new library reserve request form that improves upon the
+functionality of the previous /Portal/ edition.
 ** Definitions
 - will, shall, must :: indicates mandatory software requirements
 - should, may :: indicates optional software requirements
 ** System Overview
-Using Wordpress and Gravity/Ninja Forms, ...
+Within the context of the entire campus moving to a Wordpress-powered
+system, this software solution maintains a reserve request form
+powered by the [[http://www.example.com/gravity-forms][Gravity Forms]] plugin.  Users (the faculty and staff of
+SMC) will log in to the Wordpress form using their Google-provided
+OpenID, complete the form, optionally upload any necessary
+attachments, and submit the form for review and fulfillment, at which
+point an email confirmation is sent as a receipt.
+*** TODO Link to Gravity Forms
 ** References
 - [[link to original requirements document]]
 - [[link to homepage of whichever forms plugin we are using]]
