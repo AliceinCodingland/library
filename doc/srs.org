@@ -3,6 +3,7 @@
 
 * Introduction
 ** Purpose
+- To create a new library request site that improves upon the functionality of the previous portal edition.
 ** Definitions
 - will, shall, must :: indicates mandatory software requirements
 - should, may :: indicates optional software requirements
