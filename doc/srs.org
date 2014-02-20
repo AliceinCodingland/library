@@ -50,9 +50,9 @@ Communication with other systems, eg. the database.
 ** Logical Database Requirement
 ** Software System Attributes
 *** Reliability
-- The site will be hosted on remote server
-- The database will be saved on an on-campus server that is maintained by the IT department
+- We are utilizing Gravity forms, which is a new and up to date plugin formatter
 *** Availability
+- The site will be available through a key word search
 *** Security
 - There are no security measures currently in place
 - A google login can be added at a later date if nesseccary
