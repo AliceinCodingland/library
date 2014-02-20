@@ -11,12 +11,11 @@ functionality of the previous /Portal/ edition.
 ** System Overview
 Within the context of the entire campus moving to a Wordpress-powered
 system, this software solution maintains a reserve request form
-powered by the [[http://www.example.com/gravity-forms][Gravity Forms]] plugin.  Users (the faculty and staff of
+powered by the [[http://www.gravityforms.com][Gravity Forms]] plugin.  Users (the faculty and staff of
 SMC) will log in to the Wordpress form using their Google-provided
 OpenID, complete the form, optionally upload any necessary
 attachments, and submit the form for review and fulfillment, at which
 point an email confirmation is sent as a receipt.
-*** TODO Link to Gravity Forms
 ** References
 - [[link to original requirements document]]
 - [[link to homepage of whichever forms plugin we are using]]
