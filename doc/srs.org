@@ -18,17 +18,11 @@ Using Wordpress and Gravity/Ninja Forms, ...
 *** Software Interfaces
 Logical interfaces to other systems; likely nil
 *** User Interfaces
-User interfce---definitely should /not/ be nil
-*** Hardware Interfaces
-Probably nil
+User interface---definitely should /not/ be nil
 *** Communication Interfaces
 Communication with other systems, eg. the database.
 (This seems very similar to [[*Software Interfaces]];
   research may need to be done concerning the difference therein.)
-*** Memory Constraints
-Any potential constraints on system resources
-  (e.g. must use no more than 640K RAM).
-Likely N/A.
 ** Product Functions
 - Will allow user to reserve electronic materials as well as physical materials
 - Will allow the user upload certain files they own to be distributed electronically
@@ -45,7 +39,6 @@ Likely N/A.
 - 
 ** External Interface Requirements
 ** Functional Requirements
-** Performance Requirements
 ** Design Constraints
 *** Standards Compliance
 ** Logical Database Requirement
