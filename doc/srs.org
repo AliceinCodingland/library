@@ -3,19 +3,12 @@
 
 * Introduction
 ** Purpose
-To create a new library reserve request form that improves upon the
-functionality of the previous /Portal/ edition.
+- To create a new library request site that improves upon the functionality of the previous portal edition.
 ** Definitions
 - will, shall, must :: indicates mandatory software requirements
 - should, may :: indicates optional software requirements
 ** System Overview
-Within the context of the entire campus moving to a Wordpress-powered
-system, this software solution maintains a reserve request form
-powered by the [[http://www.gravityforms.com][Gravity Forms]] plugin.  Users (the faculty and staff of
-SMC) will log in to the Wordpress form using their Google-provided
-OpenID, complete the form, optionally upload any necessary
-attachments, and submit the form for review and fulfillment, at which
-point an email confirmation is sent as a receipt.
+Using Wordpress and Gravity/Ninja Forms, ...
 ** References
 - [[link to original requirements document]]
 - [[link to homepage of whichever forms plugin we are using]]
@@ -34,7 +27,7 @@ Communication with other systems, eg. the database.
 - Will allow user to reserve electronic materials as well as physical materials
 - Will allow the user upload certain files they own to be distributed electronically
 ** User Characteristics
-- Users will be only St. Marys faculty
+- Users should be limited to St. Marys faculty
 ** Constraints, Assumptions and Dependencies
 - It is assumed that the Professors will know their course numbers and which course they correspond to
 - It is assumed that Professors will know how long the books are if they are reserving specific pages from a book
@@ -46,10 +39,13 @@ Communication with other systems, eg. the database.
 ** External Interface Requirements
 ** Functional Requirements
 ** Design Constraints
+- The site will be coded using HTML
 *** Standards Compliance
 ** Logical Database Requirement
 ** Software System Attributes
 *** Reliability
+- The site will be hosted on remote server
+- The database will be saved on an on-campus server that is maintained by the IT department
 *** Availability
 *** Security
 - There are no security measures currently in place
@@ -57,4 +53,6 @@ Communication with other systems, eg. the database.
 *** Maintainability
 - The site will be maintained by the IT depertment
 *** Portability
+- There will be no mobile specific site developed
+- The site should be usable on any portable web browser
 ** Other Requirements
