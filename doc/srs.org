@@ -43,7 +43,9 @@ Communication with other systems, eg. the database.
 - It must have all the functionality of the previous form
 - The user should be able to request multiple submissions
 ** External Interface Requirements
+- 
 ** Functional Requirements
+- The site will be able to perform all actions of the former site
 ** Design Constraints
 - The site will be coded using HTML
 *** Standards Compliance
