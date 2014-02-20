@@ -1,10 +1,10 @@
 * Software Design Document
 See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia article]] for more information.
 
-**Data Design
+** Data Design
 
-**Architecture Design
+** Architecture Design
 
-**Interface Design
+** Interface Design
 
-**Procedural Design
+** Procedural Design
