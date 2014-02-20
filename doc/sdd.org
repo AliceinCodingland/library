@@ -19,7 +19,7 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
 - uses information flowing characteristics, and maps them into the program structure. 
 - The transformation mapping method is applied to exhibit distinct boundaries between incoming and outgoing data. 
 - The data flow diagrams allocate control input, processing and output along three separate modules.
-  - 
+- 
 ** Interface Design
 - Internal Program Interface
   - Wordpress
