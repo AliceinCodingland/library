@@ -6,5 +6,11 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
 ** Architecture Design
 
 ** Interface Design
-
+- Internal
+- External
+- Human
+  - Improved site design
+  - Straight-forward and less confusing
+  - "Tab" system for easy tracking of multiple submissions
+  - Submission Confirmation emails
 ** Procedural Design
