@@ -33,8 +33,13 @@ Communication with other systems, eg. the database.
 - Will allow user to reserve electronic materials as well as physical materials
 - Will allow the user upload certain files they own to be distributed electronically
 ** User Characteristics
-- Users should be limited to St. Marys faculty
+- The users of this site are the faculty reserving forms on the site, the library staff processing those forms, and the database accessing any uploaded files
 ** Constraints, Assumptions and Dependencies
+- The website will require access to the internet to submit a form
+- The website will require the user to input their own course number and section
+- The website will require the user to know the library call number of the item they are trying to reserve
+- It may not be accessable by all browsers (to be tested at a later date)
+- The library will have to check the availability of the request outside of the website
 - It is assumed that the Professors will know their course numbers and which course they correspond to
 - It is assumed that Professors will know how long the books are if they are reserving specific pages from a book
 (e.g. they should not ask for pages 112-115 from a 100 page book)
