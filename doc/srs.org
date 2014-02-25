@@ -48,9 +48,16 @@ Communication with other systems, eg. the database.
 - It must have all the functionality of the previous form
 - The user should be able to request multiple submissions
 ** External Interface Requirements
+- The user will be required to fill in all of the information on the first form, however the repeated information will autofill on the next form
+- The website will interact with the database in sending files and recieving a list of former reserves
+- The website will communicate with the emails of the professor reserving and the library staff sending a confirmation email to both
 - The website will utilize wordpress and HTML, the user must have a browser the can run these programs
 - The database will be linked to the site to allow for uploads from the user
 ** Functional Requirements
+- The user will be able to search for the form from any search engine
+- The user will be able to inclue multiple submissions
+- The user will be able to upload their own files to the database
+- The user will be able to view previous submissions
 - The site will be able to perform all actions of the former site
 ** Design Constraints
 - The site will be coded using HTML
