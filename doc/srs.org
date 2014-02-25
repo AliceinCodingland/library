@@ -21,10 +21,6 @@ point an email confirmation is sent as a receipt.
 - etc...
 * Overall Description
 ** Product Perspective
-*** Software Interfaces
-Logical interfaces to other systems; likely nil
-*** User Interfaces
-User interface---definitely should /not/ be nil
 *** Communication Interfaces
 Communication with other systems, eg. the database.
 (This seems very similar to [[*Software Interfaces]];
@@ -32,6 +28,8 @@ Communication with other systems, eg. the database.
 ** Product Functions
 - Will allow user to reserve electronic materials as well as physical materials
 - Will allow the user upload certain files they own to be distributed electronically
+- Will allow the user to submit multiple requests
+- Will allow the user to add notes to the request they are submiting
 ** User Characteristics
 - The users of this site are the faculty reserving forms on the site, the library staff processing those forms, and the database accessing any uploaded files
 ** Constraints, Assumptions and Dependencies
@@ -63,8 +61,7 @@ Communication with other systems, eg. the database.
 - The website will send an email to the requester and the library staff
 ** Design Constraints
 - The site will be coded using HTML
-- THe database will have a limited amount of space that is being managed by a third party
-*** Standards Compliance
+- The database will have a limited amount of space that is being managed by a third party
 ** Logical Database Requirement
 - The site will be able to take in a file from the user and save it to the database filed under which professor requested it
 ** Software System Attributes
@@ -73,7 +70,8 @@ Communication with other systems, eg. the database.
 - The site will reliably send the confirmation emails to the professors and library staff
 - The site will reliably send the uploaded files to the database
 *** Availability
-- The site will be available through a key word search
+- The site will be available through a key word search through a search engine
+- This site will not be available as a desktop client
 *** Security
 - There are no security measures currently in place
 - A google login can be added at a later date if nesseccary
