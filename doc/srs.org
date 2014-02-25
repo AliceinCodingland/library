@@ -58,15 +58,20 @@ Communication with other systems, eg. the database.
 - The user will be able to inclue multiple submissions
 - The user will be able to upload their own files to the database
 - The user will be able to view previous submissions
-- The site will be able to perform all actions of the former site
+- The website will have space for the request dates, loan parameters and bibliographical information (author, title, pages...)
+- The website will allow access to both types of forms (electronic and material)
+- The website will send an email to the requester and the library staff
 ** Design Constraints
 - The site will be coded using HTML
+- THe database will have a limited amount of space that is being managed by a third party
 *** Standards Compliance
 ** Logical Database Requirement
 - The site will be able to take in a file from the user and save it to the database filed under which professor requested it
 ** Software System Attributes
 *** Reliability
 - We are utilizing Gravity forms, which is a new and up to date plugin formatter
+- The site will reliably send the confirmation emails to the professors and library staff
+- The site will reliably send the uploaded files to the database
 *** Availability
 - The site will be available through a key word search
 *** Security
@@ -74,6 +79,7 @@ Communication with other systems, eg. the database.
 - A google login can be added at a later date if nesseccary
 *** Maintainability
 - The site will be maintained by the IT depertment
+- The site will be easy to update and add features to
 *** Portability
 - There will be no mobile specific site developed
 - The site should be usable on any portable web browser
