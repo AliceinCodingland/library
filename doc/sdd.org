@@ -3,25 +3,31 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
 
 ** Data Design
 - Object
-  - What actions is the object responsible for?
-  - What information does this object share?
+  - A website for faculty members to reserve electronic or physical materials.
+  - Materials include items from the SMCM Library, requests from other libraries, and pdf's that users upload.
+  - Allows Library staff to reserve/print desired materials more efficiently
 - Stakeholders
   - Library
-  - Users
-- Separation of Concerns/Recurring Styles (addressing recurring concenrs)
+  - Faculty
+- Separation of Concerns/Recurring Styles
   - Organization/categorization of fields may be an issue
   - User-friendliness
+  - Server Space
 - Conceptual Integrity
   - "Vision of the project"
   - Create a library request site that improves upon the previous Portal edition.
   - New edition should have all old functions and new functions mentioned in the SRS
   - Focus on following wants and haves from the original request list
 ** Architecture Design
-- uses information flowing characteristics, and maps them into the program structure. 
-- The transformation mapping method is applied to exhibit distinct boundaries between incoming and outgoing data. 
-- The data flow diagrams allocate control input, processing and output along three separate modules.
-- takes in user input request for electronic/materials
-- 
+- Input
+  - user wants to reservae a material type
+  - user fills in information for material
+    - user attaches desired material
+  - user submits request
+- Output
+  - confirmation email to both parties.
+  - library reserves item(s)
+  - library prints/gathers item(s) for user
 ** Interface Design
 - Internal Program Interface
   - Wordpress
