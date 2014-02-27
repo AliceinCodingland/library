@@ -53,7 +53,7 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
     - A website for faculty members to reserve electronic or physical materials.
     - Materials include items from the SMCM Library, requests from other libraries, and pdf's that users upload.
     - Allows Library staff to reserve/print desired materials more efficiently
-  - Primary USers
+  - Primary Users
     - Library
     - Faculty
   - Separation of Concerns/Recurring Styles
