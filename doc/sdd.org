@@ -7,7 +7,7 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
 
 * Contents
 - Introduction
-- Data/Procedural
+- Data/Procedural Design
 - Architecture Design
 - Interface Design
 
