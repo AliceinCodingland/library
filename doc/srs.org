@@ -43,8 +43,6 @@ Communication with other systems, eg. the database.
 (e.g. they should not ask for pages 112-115 from a 100 page book)
 - It is assumed that the Professors will know the call number of the material they are tring to reserve
 * Specific Requirements
-- It must have all the functionality of the previous form
-- The user should be able to request multiple submissions
 ** External Interface Requirements
 - The user will be required to fill in all of the information on the first form, however the repeated information will autofill on the next form
 - The website will interact with the database in sending files and recieving a list of former reserves
