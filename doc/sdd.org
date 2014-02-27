@@ -5,11 +5,11 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
 - Library Electronic Material User Request Site
 - Software Design Document
 
-** Contents
-* Introduction
-* Data/Procedural
-* Architecture Design
-* Interface Design
+* Contents
+- Introduction
+- Data/Procedural
+- Architecture Design
+- Interface Design
 
 
 ** Introduction
