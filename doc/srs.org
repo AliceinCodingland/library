@@ -16,9 +16,8 @@ OpenID, complete the form, optionally upload any necessary
 attachments, and submit the form for review and fulfillment, at which
 point an email confirmation is sent as a receipt.
 ** References
-- [[link to original requirements document]]
-- [[link to homepage of whichever forms plugin we are using]]
-- etc...
+- [[https://github.com/AliceinCodingland/library/blob/master/doc/request-document.org]]
+- [[http://www.gravityforms.com/]]
 * Overall Description
 ** Product Perspective
 *** Communication Interfaces
