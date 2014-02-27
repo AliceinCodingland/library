@@ -37,7 +37,7 @@ Communication with other systems, eg. the database.
 - The website will require the user to know the library call number of the item they are trying to reserve
 - It may not be accessable by all browsers (to be tested at a later date)
 - The library will have to check the availability of the request outside of the website
-- It is assumed that the Professors will know their course numbers and which course they correspond to (valid course numbers include COSC48001, ART10501)
+- It is assumed that the Professors will know their course numbers and which course they correspond to (course number must be in AAAA-000.00 format, valid course numbers include COSC-480.01)
 - It is assumed that Professors will know how long the books are if they are reserving specific pages from a book
 (e.g. they should not ask for pages 112-115 from a 100 page book)
 - It is assumed that the Professors will know the call number of the material they are tring to reserve
