@@ -1,0 +1,26 @@
+Main Page 
+  - add name 
+  - Remove Author and put under Each individual type of reserve 
+  - add course name 
+  - Before user chooses a reserve type it should contain these fields: Name, Email. Course Name, Course Number, and Semester 
+  - Add additional options to Reserve Type Dropdowns: Reactivate All, Reactivate Some. These both need an Special Instructions text box underneath
+
+Material Type reserve page: 
+  - Instead of radio buttons have a drop down with the following choices: Book, Video and Audio, Binder 
+  - Under Book the following fields should be displayed: Author, Title, and Call Number 
+  - Under Audio and Video the following fields should be displayed: Title, Call number, Composer/ Director 
+  - Under Binder, No additional fields should populate 
+
+Circulation: 
+  - Instead of other, have an option that reads: In Library Use Only 
+
+EReserves
+  - Book Chapter should have the following fields: 
+    - Book Title, Book Author, Chapter Title, Chapter Author, Call number, Page count of Book Chapter ( this is the pages of the chapter, ex. 320-340, add helper text to specify this) 
+    
+  - Journal Article should have the following fields: 
+    - Journal Title, Article Title, Article Author, Article Pages (this is the pages of the article, ex. 16-20, include helper text) 
+    volume, issue (not a required field) and year published. 
+    
+- In Date Option block off current day + next two days, essentially 48 hr
+  
