@@ -17,7 +17,12 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
   - Purpose:
     - A new user-friendly website that allows teachers to easily reserve and upload requests for the library staff to execute.
   - Design:
-    - The new website will have all of the functionality of the current version, along with new features in accordance to design specifications dictated by the library staff.
+    - Will allow faculty to reserve either physical type or electronic type materials
+    - Will allow faculty to upload their own files for reserves
+    - Will send faculty and library staff confimation emails
+    - Will send the uploaded files to online database, able to viewed by administrator
+    - Will allow faculty to add specific notes to their requests
+    - Will allow faculty to submit multiple requests in one submission
   - Abbreviations and Definitions:
     - LEMURS: Library Electronic Material User Request Site
     - SMCM: St. Mary’s College of Maryland
@@ -27,7 +32,7 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
 
 ** Data/Procedural Design
 - Overview
-  - Using Wordpress and various plug-ins, we will create a website that is separate from the current “Portal” request site that the SMCM staff user that will allow faculty members to reserve materials. These materials include electronic and physical. 
+  - Using Wordpress, Gravity forms, and JQuerry we will create a website that is separate from the current “Portal” request site that the SMCM staff user that will allow faculty members to reserve materials. These materials include electronic and physical. 
 - Features
   - Current Features
     - Form accessed with faculty user login.
@@ -51,15 +56,12 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
     - Summary reports should include material type, faculty member name, and date range.
   - Object
     - A website for faculty members to reserve electronic or physical materials.
-    - Materials include items from the SMCM Library, requests from other libraries, and pdf's that users upload.
     - Allows Library staff to reserve/print desired materials more efficiently
+    - Allow faculty to upload personal files to fill reserves
+    - Allow library administrator to view, print, and remove previous reserves
   - Primary Users
     - Library
     - Faculty
-  - Separation of Concerns/Recurring Styles
-    - Organization/categorization of fields may be an issue
-    - User-friendliness
-    - Server Space
   - Conceptual Integrity
     - "Vision of the project"
     - Create a library request site that improves upon the previous Portal edition.
@@ -68,14 +70,18 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
   - Design
     - User login
     - Material/Electronic request form
-    - enter item information to reserve
-    - can upload pdf's
-    -  email confirmation
+    - Enter item's bibliographical information to reserve
+    - Can upload pdf's with reserve submission
+    - Email confirmation sent to faculty and library
+    - Field for specific notes on reserves
+    - Allows library to see, print, and delete previous submissions
+    - Allows for mutiple reservations for one submission
+    
 ** Architecture Design
 - Performance Requirements
   - Input
     - user wants to reservae a material type
-    - user fills in information for material
+    - user fills in bibliographical information for material
     - user attaches desired material
     - user submits request
   - Output
@@ -86,6 +92,7 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
 - Internal Program Interface
   - Wordpress
   - Gravity Forms
+  - JQuerry
 - Human Program Interface
   - Improved site design
   - Straight-forward and less confusing
@@ -111,6 +118,7 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
           - User can upload pdf's to be reserved
           - User can have multiple submissions
           - User receives an email confirmation of submission
+          - User can add specific notes for their requests
         - Library
           - User receives email confirmation of request
           - User fulfills request
