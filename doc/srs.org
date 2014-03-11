@@ -5,9 +5,15 @@
 * Introduction
 ** Purpose
 - To create a new library request site that improves upon the functionality of the previous portal edition.
+- The site wil allow faculty members to enter information and upload files for specific materials (physical or electronic) and request them.
+- The library staff will be able to organize and fulfill requests from  the site.
 ** Definitions
 - will, shall, must :: indicates mandatory software requirements
 - should, may :: indicates optional software requirements
+- LEMURS :: "Library Electronic, Material User Request Site"
+- EMU :: "Electronic Material User" - faculty and staff who use the LEMURS site.
+- EMUS :: "Electronic Material User Site"
+- LEPURD :: "Library Electronic Physical User Request Domain"
 ** System Overview
 Within the context of the entire campus moving to a Wordpress-powered
 system, this software solution maintains a reserve request form
@@ -26,13 +32,17 @@ Communication with other systems, eg. the database.
 (This seems very similar to [[*Software Interfaces]];
   research may need to be done concerning the difference therein.)
 ** Product Functions
-- Will allow user to reserve electronic materials as well as physical materials
+- Will allow the user to reserve electronic materials as well as physical materials
 - Will allow the user upload certain files they own to be distributed electronically
 - Will allow the user to submit multiple requests
 - Will allow the user to add notes to the request they are submiting
+- Will allow the user to enter information about the material
 ** User Characteristics
 - The users of this site are the faculty reserving forms on the site, the library staff processing those forms, and the database accessing any uploaded files
-** Constraints, Assumptions and Dependencies
+- Faculty - request materials by entering info for material and/or uploading said material
+- Library Staff - view/print/fulfill requests
+- OIT - Host the site. Can view and edit site.
+** Constraints, Assumptions, and Dependencies
 - The website will require access to the internet to submit a form
 - The website will require the user to input their own course number and section
 - The website will require the user to know the library call number of the item they are trying to reserve
@@ -50,6 +60,7 @@ Communication with other systems, eg. the database.
 - The website will communicate with the emails of the professor reserving and the library staff sending a confirmation email to both
 - The website will utilize wordpress and HTML, the user must have a browser the can run these programs
 - The database will be linked to the site to allow for uploads from the user
+
 ** Functional Requirements
 - The user will be able to search for the form from any search engine
 - The user will be able to inclue multiple submissions
@@ -80,4 +91,4 @@ Communication with other systems, eg. the database.
 *** Portability
 - There will be no mobile specific site developed
 - The site should be usable on any portable web browser
-** Other Requirements
+
