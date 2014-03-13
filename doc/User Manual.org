@@ -1,3 +1,25 @@
 #+TITLE: User Manual: Library Reserve Request Form
 
-* General Information
+* GENERAL INFORMATION
+
+** System overview
+- Libcore is a website that will allow the faculty of St. Mary's College of Maryland to reserve electronic or physical materials for their classes.  It will also allow the Library staff to view the submissions and respond to them (i.e. print, delete, or mark them as read).  This form will work with all browsers and devices.
+
+* SYSTEM SUMMARY
+
+** System Configuration
+- The website works on all browsers and devices.  It requires internet access to reserve and upload files to the database.  It also requires internet access to check and edit the reserves in the database.  Files in the database will also be viewable on all browsers and devices.
+
+** User Access Levels
+- The site will be accessable to everyone, but the database of requests will only be available to the library staff with the administrator wordpress login.
+
+** Contingincies
+- In the case of a loss of internet, the request will not be saved or submited.
+
+* GETTING STARTED
+
+** Access
+- The course can be found online at [[]].  Here the user will fill out hte neccessary fields corresponding to their desired reserve. 
+
+** Home Page
+- The site will consist of a single page that will dynamically change according to the desired reserve.  
