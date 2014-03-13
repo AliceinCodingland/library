@@ -17,13 +17,27 @@
 		<script>
 		
    	 	$(document).ready(function(){
-   	 	//When document is loaded
+            var deletions = 0;
+            //Initialize deletions at 0
+            
 	    	$("#add").on("click", function(){
 	    	//When you click on add, add new tab directly below existing tabs
-            	$("#namecontainer").append('<li class="tab"><span class="tabname">WOWIE ZOWIE </span>' + $("li").index(this) + '<div class="removebutton">X</div></li>');
+            	$("#namecontainer").append('<li class="tab"><span class="tabname">WOWIE ZOWIE </span>' + ($("li").index(this) + deletions) + '<div class="removebutton">X</div></li>');
 	    	});
+	    	
 	    	$("#namecontainer").on("click", ".removebutton", function () {
-                $(this).parent().remove();
+            	var choice=confirm("u sure u wanna do that bub");
+           		//User is asked to confirm choice
+           			if (choice==true) {
+          	 		//if they select OK:
+              			$(this).parent().remove();
+              			//remove the tab
+              			deletions = deletions + 1;
+              		//increment deletions--this will help numbers remain accurate
+          			}
+            //http://www.w3schools.com/js/js_popup.asp
+
+            // alert("Your loss buddy");
 	    	//when a tab is clicked
             //var index = $(this).index();
 	    		//index is set to the index of this tab
