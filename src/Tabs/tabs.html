@@ -8,7 +8,7 @@
 	
 		<div id="tabcontainer">
         	<div id="namecontainer">
-                <li class="tab"><span class="tabname">TEST</span><div class="removebutton">X</div></li>
+            	  <li class="tab"><span class="tabname">TEST</span><div class="removebutton">X</div></li>
         	</div>
         	<li id="add">ADD</li>
     	</div>
@@ -20,12 +20,16 @@
    	 	//When document is loaded
 	    	$("#add").on("click", function(){
 	    	//When you click on add, add new tab directly below existing tabs
-            $("#namecontainer").append('<li class="tab"><span class="tabname">WOWIE ZOWIE</span> <div class="removebutton">X</div></li>');
+            	$("#namecontainer").append('<li class="tab"><span class="tabname">WOWIE ZOWIE </span>' + $("li").index(this) + '<div class="removebutton">X</div></li>');
 	    	});
-	    	$("#tabcontainer").on("click", ".removebutton", function () {
+	    	$("#namecontainer").on("click", ".removebutton", function () {
                 $(this).parent().remove();
-            });
-
+	    	//when a tab is clicked
+            //var index = $(this).index();
+	    		//index is set to the index of this tab
+            //var replace = getFields(index);
+            //$("#fields").replaceWith(replace);
+	    	});
     });
    		</script>
 	</div>
