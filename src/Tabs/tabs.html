@@ -1,0 +1,33 @@
+<div id="container">
+
+	<div class="forms">
+	</div>
+	
+	<div class="forms">
+	<div class="forms">
+	
+		<div id="tabcontainer">
+        	<div id="namecontainer">
+                <li class="tab"><span class="tabname">TEST</span><div class="removebutton">X</div></li>
+        	</div>
+        	<li id="add">ADD</li>
+    	</div>
+		<div id="fieldcontainer">
+		</div>
+		<script>
+		
+   	 	$(document).ready(function(){
+   	 	//When document is loaded
+	    	$("#add").on("click", function(){
+	    	//When you click on add, add new tab directly below existing tabs
+            $("#namecontainer").append('<li class="tab"><span class="tabname">WOWIE ZOWIE</span> <div class="removebutton">X</div></li>');
+	    	});
+	    	$("#tabcontainer").on("click", ".removebutton", function () {
+                $(this).parent().remove();
+            });
+
+    });
+   		</script>
+	</div>
+	
+</div>

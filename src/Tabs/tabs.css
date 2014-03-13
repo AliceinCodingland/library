@@ -1,0 +1,56 @@
+/* Container for everything */
+	width: 800px;
+}
+
+.forms{
+/*Container for forms--the whole thing */
+	width: 100%;
+	
+}
+
+#fieldcontainer {
+/*Contains form content*/
+	width: 80%;
+	float:right;
+	background-color: #;
+	border: solid 3px #;
+	text-align: left;
+	margin: 0;
+	padding: 10px;
+}
+
+#tabcontainer{
+/*Contains tabs */
+	width: 20%;
+	float:left;
+	background-color: #;
+	border: solid 3px #;
+	text-align: left;
+	margin: 0;
+	padding: 10px;
+}
+
+.tab {
+	list-style:none;
+	background-color: #B5B5CE;
+ 
+}
+
+.tabname{
+    
+}
+
+.testclass {
+	float:right;
+	background-color: #EEEEEE;
+}
+
+.removebutton{
+    float:right;
+}
+
+#add {
+}
+#fields{
+}
+}
