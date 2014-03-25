@@ -1,94 +1,123 @@
 #+TITLE: Software Requirements Specification: Library Reserve Requests Form
 #+DATE: [2014-02-05 Wed]
-#+LaTeX_CLASS_OPTIONS: [twocolumn,titlepage]
 
 * Introduction
+Throughout this document, the current project will be referred to as 'the Software'.
+Possible names are discussed below.
+*** Potential Names
+# EMU is stretching it.
+- L'MURS :: "Library Material User Request Site"
+- LEMURS :: "Library Electronic, Material User Request Site"
+- LEPURD :: "Library Electronic Physical User Request Domain"
+- LibCoRe :: "Library Course Reserve"
+- PELICAN :: "Physical Electronic Library Internet Course Access Network"
+
+All names subject to change to avoid confusion and until satisfaction is acheived.
 ** Purpose
-- To create a new library request site that improves upon the functionality of the previous portal edition.
-- The site wil allow faculty members to enter information and upload files for specific materials (physical or electronic) and request them.
-- The library staff will be able to organize and fulfill requests from  the site.
+The Software is a complete re-write of a materials request form previously hosted on the Portal.
+Along with separating itself from the Portal system, the Software iterates on the previous form
+  by allowing Requesters to upload materials (e.g. PDFs) in addition to providing citation data
+  for the material they are requesting.
+Library Staff will be able to organize and fulfill requests from the Software.
 ** Definitions
 - will, shall, must :: indicates mandatory software requirements
 - should, may :: indicates optional software requirements
-- LEMURS :: "Library Electronic, Material User Request Site"
-- EMU :: "Electronic Material User" - faculty and staff who use the LEMURS site.
-- EMUS :: "Electronic Material User Site"
-- LEPURD :: "Library Electronic Physical User Request Domain"
+- Staff :: any library user resolving requests
+- Requester, User :: any non-library user submitting requests
 ** System Overview
-Within the context of the entire campus moving to a Wordpress-powered
-system, this software solution maintains a reserve request form
-powered by the [[http://www.gravityforms.com][Gravity Forms]] plugin.  Users (the faculty and staff of
-SMC) will log in to the Wordpress form using their Google-provided
-OpenID, complete the form, optionally upload any necessary
-attachments, and submit the form for review and fulfillment, at which
-point an email confirmation is sent as a receipt.
+Within the context of the entire campus moving to a WordPress-powered system,
+  this software solution maintains a reserve request form
+  powered by the [[http://www.gravityforms.com][Gravity Forms]] plug-in.
+Requesters will log in to the WordPress form (the Software) using
+  their Google-provided OpenID (to be handled by OIT),
+  complete the form,
+  optionally upload any necessary attachments,
+  and submit the form for review and fulfillment.
+At this point, an email confirmation is sent as a receipt to both the Requester and the library Staff.
+
+A Staff member will also log into WordPress (the Software) and be able to access a list of open requests
+  (and also a database of previous requests).
+The Staff member will review the request submitted by the Requester and handle the request.
+(It is recommended that the Staff then send an email to the Requester
+   concerning the status of the request.
+ This can be done simply by clicking the email listed as part of the request within WordPress.)
 ** References
 - [[https://github.com/AliceinCodingland/library/blob/master/doc/request-document.org][Original Request Document]]
 - [[http://www.gravityforms.com][Gravity Forms]]
 * Overall Description
-** Product Perspective
-*** Communication Interfaces
-Communication with other systems, eg. the database.
-(This seems very similar to [[*Software Interfaces]];
-  research may need to be done concerning the difference therein.)
 ** Product Functions
-- Will allow the user to reserve electronic materials as well as physical materials
-- Will allow the user upload certain files they own to be distributed electronically
-- Will allow the user to submit multiple requests
-- Will allow the user to add notes to the request they are submiting
-- Will allow the user to enter information about the material
+The Software will allow the user to...
+- reserve electronic materials as well as physical materials
+- upload certain files they own to be distributed electronically
+- submit multiple requests
+- add notes to the request they are submiting
+- enter information about the material
 ** User Characteristics
-- The users of this site are the faculty reserving forms on the site, the library staff processing those forms, and the database accessing any uploaded files
-- Faculty - request materials by entering info for material and/or uploading said material
-- Library Staff - view/print/fulfill requests
-- OIT - Host the site. Can view and edit site.
+The users of the Software are the faculty Requesters submitting reserves on the Software,
+  the library Staff processing those forms,
+  and OIT maintaining the Software.
+
+- Faculty Requester :: request materials by entering info for material and/or uploading said material
+- Library Staff :: view/print/fulfill requests
+- OIT :: hosts and administers the Software
 ** Constraints, Assumptions, and Dependencies
-- The website will require access to the internet to submit a form
-- The website will require the user to input their own course number and section
-- The website will require the user to know the library call number of the item they are trying to reserve
-- It may not be accessable by all browsers (to be tested at a later date)
-- The library will have to check the availability of the request outside of the website
-- It is assumed that the Professors will know their course numbers and which course they correspond to (course number must be in AAAA-000.00 format, valid course numbers include COSC-480.01)
-- It is assumed that Professors will know how long the books are if they are reserving specific pages from a book
+- The Software will require access to the internet to submit a form
+- The Software will require the user to know the library call number
+  of the item they are trying to reserve
+- The Software cannot report on the availability of any requested material.
+- The Software does not have access to a list (neither static nor dynamic) of course codes.
+  They must be entered as...
+- It is assumed that Users will know their course code and title.
+  The department (e.g. =ART=, =ILCL=, =COSC=, etc.) will be provided as a drop-down.
+  The remainder of the course code will be provided in a =123.45= format.
+- the Software will not check if a page range is feasible for this material.
 
   (e.g. they should not ask for pages 112-115 from a 100 page book)
-- It is assumed that the Professors will know the call number of the material they are tring to reserve
 * Specific Requirements
 ** External Interface Requirements
-- The user will be required to fill in all of the information on the first form, however the repeated information will autofill on the next form
-- The website will interact with the database in sending files and recieving a list of former reserves
-- The website will communicate with the emails of the professor reserving and the library staff sending a confirmation email to both
-- The website will utilize wordpress and HTML, the user must have a browser the can run these programs
+- The User will be required to fill in all of the information on the first form,
+  however the repeated information will auto-fill on the next form.
+- The website will interact with the database in sending files and receiving a list of former reserve requests.
+- The website will communicate with the User and the Staff via confirmation emails to both parties.
+- The website will utilize WordPress and HTML, the user must have a browser the can run these programs
 - The database will be linked to the site to allow for uploads from the user
 
 ** Functional Requirements
-- The user will be able to search for the form from any search engine
-- The user will be able to inclue multiple submissions
-- The user will be able to upload their own files to the database
-- The user will be able to view previous submissions
-- The website will have space for the request dates, loan parameters and bibliographical information (author, title, pages...)
-- The website will allow access to both types of forms (electronic and material)
-- The website will send an email to the requester and the library staff
+- The User will be able to search for the form from any search engine
+- The User will be able to include multiple submissions
+- The User will be able to upload their own files to the database
+- The User will be able to view previous submissions
+- The Software will have space for the request dates, loan parameters and bibliographical information (author, title, pages...)
+- The Software will allow access to both types of forms (electronic and material)
+- The Software will send emails to the Requester and the Staff to confirm submission of requests.
 ** Design Constraints
-- The site will be coded using HTML
-- The database will have a limited amount of space that is being managed by a third party
+- The Software will be coded using HTML and JavaScript/CoffeeScript as appropriate.
+- The database will have a limited amount of space that is being managed by a third party.
 ** Logical Database Requirement
-- The site will be able to take in a file from the user and save it to the database filed under which professor requested it
+- The Software will be able to take in a file from the user and store it in the database.
+- The database stores all previous requests for later recall (and resubmission).
 ** Software System Attributes
 *** Reliability
-- We are utilizing Gravity forms, which is a new and up to date plugin formatter
-- The site will reliably send the confirmation emails to the professors and library staff
-- The site will reliably send the uploaded files to the database
+- The Software utilizes Gravity forms---a well-maintained forms manager.
+- The Software will reliably send the confirmation emails to the Users and Staff.
+- The Software will reliably send the uploaded files to the database.
 *** Availability
-- The site will be available through a key word search through a search engine
-- This site will not be available as a desktop client
+- The Software will be visible to search engines.
+- The Software will only be supported via the web interface.
+- The Software will be accessible from all major browsers, including
+  - Internet Explorer 9+
+  - Chrome
+  - Firefox
+  - Opera
+  - Safari
 *** Security
 - There are no security measures currently in place
-- A google login can be added at a later date if nesseccary
+- A Google login can be added at a later date if necessary.
+  (This will be handled by OIT.)
 *** Maintainability
-- The site will be maintained by the IT depertment
-- The site will be easy to update and add features to
+- The Software will be maintained by OIT.
+- The Software will be easy to update as required.
 *** Portability
-- There will be no mobile specific site developed
-- The site should be usable on any portable web browser
+- There will be no mobile-specific site developed.
 
+#  LocalWords:  WordPress OpenID website
