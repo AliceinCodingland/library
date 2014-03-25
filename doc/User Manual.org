@@ -19,7 +19,23 @@
 * GETTING STARTED
 
 ** Access
-- The course can be found online at [[]].  Here the user will fill out hte neccessary fields corresponding to their desired reserve. 
+- The course can be found online at [[]].
+- The faculty will then have to login to WordPress to gain access to the form.
+
 
 ** Home Page
 - The site will consist of a single page that will dynamically change according to the desired reserve.  
+
+
+
+
+* ADMIN INFO
+
+** Access and Logging in
+- The site can be found at [[]].
+- The admin will have to login with the proper admin Wordpress login.
+
+** Accessing the submissions
+- From the Dashboard the admin will select the Submissions link in the lower middle box in the page, this will take the admin to the list of submissions from the faculty.
+[[temp]]
+
