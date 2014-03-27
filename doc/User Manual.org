@@ -38,4 +38,24 @@
 ** Accessing the submissions
 - From the Dashboard the admin will select the Submissions link in the lower middle box in the page, this will take the admin to the list of submissions from the faculty.
 [[temp]]
+- The admin is then able to select the specific form they would like to view.
+[[temp]]
+
+** Deleting submissions
+- The admin is able to delete a submission by placing the mouse pointer over the submission and selecting the red "trash" button
+[[temp]]
+- The admin is also able to check the boxes next to the submissions and set the bulk action to "trash", then clicking apply to remove multiple submissions.
+[[temp]]
+- The removed submissions will be then moved to the trash section that can be found by selecting "Trash" button.
+[[temp]]
+[[temp]]
+- In the trash section the admin can permanently remove the submission from the database by placing the mouse pointer over a submission and selecting "Delete Permanently".
+[[temp]]
+- The admin can also delete permantely by checking multiple submissions boxes and setting the bulk action to "delete permanently" and clicking apply.
+[[temp]]
+
+** Favoriting submissions
+- The admin is able to favorite submissions by selecting the star next to the submission
+[[temp]]
+- The admin is also able to 
 
