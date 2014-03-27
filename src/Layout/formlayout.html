@@ -1,0 +1,136 @@
+<div id="container">
+<div id="title">
+
+<!--THIS IS THE TITLE-->L'MURS.
+
+<style type="text/css"><!--
+#title { font-size:250% } #container { /* Container for everything */ height: 100%; width: 800px; } .forms{ /*Container for forms--the whole thing */ width: 100%; height: 40px; border: solid 3px #111; background-color: grey; } #fieldcontainer { /*Contains form content*/ height: 400px; width: 80%; float:right; background-color: #; border: solid 3px #111; text-align: left; margin-top: 50px; padding: 10px; margin-bottom: -200px; } #tabcontainer{ /*Contains tabs */ width: 14%; height: 400px; float:left; background-color: #; border: solid 3px #555; text-align: left; margin-right: -100px; padding: 10px; margin-top: 50px; } #namecontainer{ } .add { list-style:none; background-color:#0066FF; } .tab { list-style:none; background-color: #; } .testclass { float:right; }
+--></style></div>
+<div class="forms">
+
+ID#
+<div id="tabcontainer">
+
+<!--SUBMISSION TABS WILL GO IN THIS FIELD-->Submissions Go Here
+
+<button id="add_tab">Add Tab</button>
+
+</div>
+<div id="fieldcontainer">
+
+[gravityform id="2"]
+
+<!--GRAVITY FORMS WILL GO HERE-->
+<div id="tabs">
+<ul>
+	<li><a href="#tabs-1">Submission 1</a> <span class="ui-icon ui-icon-close" role="presentation">Remove Tab</span></li>
+</ul>
+<div id="tabs-1">
+
+Tab 1 Content :D
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--JQUery functionality for new tab button-->
+
+	<link href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script><script type="text/javascript" src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script><script type="text/javascript">// <![CDATA[
+$(document).ready(function(){
+	    $("#button").on("click", function(){
+            $("#namecontainer").append('
+
+	<li><a href="#">Tab 1</a></li>
+
+');
+	    });
+    });
+// ]]></script>
+
+<script type="text/javascript">// <![CDATA[
+$(function() {
+    var tabTitle = $( "#tab_title" ),
+      tabContent = $( "#tab_content" ),
+      tabTemplate = "
+
+	<li><a href='#{href}'>#{label}</a> <span class='ui-icon ui-icon-close' role='presentation'>Remove Tab</span></li>
+
+",
+      tabCounter = 2;
+
+    var tabs = $( "#tabs" ).tabs();
+
+    // modal dialog init: custom buttons and a "close" callback resetting the form inside
+    var dialog = $( "#dialog" ).dialog({
+      autoOpen: false,
+      modal: true,
+      buttons: {
+        Add: function() {
+          addTab();
+          $( this ).dialog( "close" );
+        },
+        Cancel: function() {
+          $( this ).dialog( "close" );
+        }
+      },
+      close: function() {
+        form[ 0 ].reset();
+      }
+    });
+
+    // addTab form: calls addTab function on submit and closes the dialog
+    var form = dialog.find( "form" ).submit(function( event ) {
+      addTab();
+      dialog.dialog( "close" );
+      event.preventDefault();
+    });
+
+    // actual addTab function: adds new tab using the input from the form above
+    function addTab() {
+      var label = tabTitle.val() || "Tab " + tabCounter,
+        id = "tabs-" + tabCounter,
+        li = $( tabTemplate.replace( /#\{href\}/g, "#" + id ).replace( /#\{label\}/g, label ) ),
+        tabContentHtml = tabContent.val() || "Tab " + tabCounter + " content.";
+
+      tabs.find( ".ui-tabs-nav" ).append( li );
+      tabs.append( "
+
+<div id='" + id + "'>
+
+" + tabContentHtml + "
+</div>
+
+" );
+      tabs.tabs( "refresh" );
+      tabCounter++;
+    }
+
+    // addTab button: just opens the dialog
+    $( "#add_tab" )
+      .button()
+      .click(function() {
+        dialog.dialog( "open" );
+      });
+
+    // close icon: removing the tab on click
+    tabs.delegate( "span.ui-icon-close", "click", function() {
+      var panelId = $( this ).closest( "li" ).remove().attr( "aria-controls" );
+      $( "#" + panelId ).remove();
+      tabs.tabs( "refresh" );
+    });
+
+    tabs.bind( "keyup", function( event ) {
+      if ( event.altKey &#038;&#038; event.keyCode === $.ui.keyCode.BACKSPACE ) {
+        var panelId = tabs.find( ".ui-tabs-active" ).remove().attr( "aria-controls" );
+        $( "#" + panelId ).remove();
+        tabs.tabs( "refresh" );
+      }
+    });
+  });
+// ]]></script>
+<div id="dialog" title="Tab data"><form>
+<fieldset class="ui-helper-reset"><label for="tab_title">Title</label><input class="ui-widget-content ui-corner-all" id="tab_title" type="text" name="tab_title" value="" /><label for="tab_content">Content</label><textarea class="ui-widget-content ui-corner-all" id="tab_content" name="tab_content"></textarea></fieldset>
+</form></div>
