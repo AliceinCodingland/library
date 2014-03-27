@@ -41,6 +41,18 @@
 - The admin is then able to select the specific form they would like to view.
 [[temp]]
 
+** Viewing submissions
+- The admin can view each submission by placing the mouse over the submission and selecting "View".
+[[temp]]
+- After selecting "View" the admin will see this page (the information displayed will vary between submissions).
+[[temp]]
+- The admin is then able to print the request by selecting the "Print" button.
+[[temp]]
+- The admin is also able to edit sumissions by selecting "Edit" and then changing the appropriate fields.
+[[temp]]
+- The admin can also move a submission to trash here by selecting "Move to Trash".
+[[temp]]
+
 ** Deleting submissions
 - The admin is able to delete a submission by placing the mouse pointer over the submission and selecting the red "trash" button
 [[temp]]
@@ -53,6 +65,13 @@
 [[temp]]
 - The admin can also delete permantely by checking multiple submissions boxes and setting the bulk action to "delete permanently" and clicking apply.
 [[temp]]
+- The admin can also remove all submissions from Trash by selecting "Empty Trash".
+[[temp]]
+- The admin is also able to place the submission back into the main section by placing the mouse pointer over the submission and selecting "Restore".
+[[temp]]
+- The admin is also able to restore multiple submissions by checking multiple submissions boxes, setting the bulk action to "Restore", and selecting "Apply".
+[[temp]]
+- The admin is able to view and print submissions the same way as they can in the main folder.
 
 ** Favoriting submissions
 - The admin is able to favorite submissions by selecting the star next to the submission
