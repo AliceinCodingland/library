@@ -3,7 +3,7 @@
 * GENERAL INFORMATION
 
 ** System overview
-- Libcore is a website that will allow the faculty of St. Mary's College of Maryland to reserve electronic or physical materials for their classes.  It will also allow the Library staff to view the submissions and respond to them (i.e. print, delete, or mark them as read).  This form will work with all browsers and devices.
+- Libcore is a website that will allow the Faculty of St. Mary's College of Maryland to reserve electronic or physical materials for their classes.  It will also allow the Library staff to view the submissions and respond to them (i.e. print, delete, or mark them as read).  This form will work with all browsers and devices.
 
 * SYSTEM SUMMARY
 
@@ -11,7 +11,7 @@
 - The website works on all browsers and devices.  It requires internet access to reserve and upload files to the database.  It also requires internet access to check and edit the reserves in the database.  Files in the database will also be viewable on all browsers and devices.
 
 ** User Access Levels
-- The site will be accessable to everyone, but the database of requests will only be available to the library staff with the administrator wordpress login.
+- The site will be accessable to everyone, but the database of requests will only be available to the Library staff with the administrator wordpress login.
 
 ** Contingincies
 - In the case of a loss of internet, the request will not be saved or submited.
@@ -20,7 +20,7 @@
 
 ** Access
 - The course can be found online at [[]].
-- The faculty will then have to login to WordPress to gain access to the form.
+- The Faculty will then have to login to WordPress to gain access to the form.
 
 
 ** Home Page
@@ -33,34 +33,34 @@
 
 ** Access and Logging in
 - The site can be found at [[]].
-- The admin will have to login with the proper admin Wordpress login.
+- The Administrator will have to login with the proper admin Wordpress login.
 
 ** Accessing the submissions
-- From the Dashboard the admin will select the Submissions link in the lower middle box in the page, this will take the admin to the list of submissions from the faculty.
+- From the Dashboard the Administrator will select the Submissions link in the lower middle box in the page, this will take the Administrator to the list of submissions from the Faculty.
 [[./img/dashboarduserstuff.png]]
-- The admin is then able to select the specific form they would like to view.
+- The Administrator is then able to select the specific form they would like to view.
 [[./img/databasestuff.png]]
 
 ** Viewing submissions
-- The admin can view each submission by placing the mouse over the submission and selecting "View".
+- The Administrator can view each submission by placing the mouse over the submission and selecting "View".
 [[./img/view.png]]
-- After selecting "View" the admin will see this page (the information displayed will vary between submissions).
+- After selecting "View" the Administrator will see this page (the information displayed will vary between submissions).
 [[./img/submissionview.png]]
-- The admin is then able to print the request by selecting the "Print" button.
+- The Administrator is then able to print the request by selecting the "Print" button.
 [[./img/printsubmission.png]]
-- The admin can print multiple submissions by checking the boxes next to the submissions, changing the bulk action to "Print", then selecting "Apply".
+- The Administrator can print multiple submissions by checking the boxes next to the submissions, changing the bulk action to "Print", then selecting "Apply".
 [[./img/bulkprint.png]]
-- The admin is also able to edit sumissions by selecting "Edit" and then changing the appropriate fields.
+- The Administrator is also able to edit sumissions by selecting the "Edit" button and then changing the appropriate fields.
 [[./img/editinsubmission.png]]
-- The admin can also move a submission to trash here by selecting "Move to Trash".
+- The Administrator can also move a submission to "Trash" here by selecting the "Move to Trash" button.
 [[./img/movetotrashinsubmission.png]]
-- The admin is able to search by any field in a submission by changing the form field box to the desired field, filling in the search bar, then selecting search.
+- The Administrator is able to search by any field in a submission by changing the form field box to the desired field, filling in the search bar, then selecting search.
 [[./img/searchfunction.png]]
 
 ** Deleting submissions
-- The admin is able to delete a submission by placing the mouse pointer over the submission and selecting the red "trash" button
+- The Administrator is able to delete a submission by placing the mouse pointer over the submission and selecting the red "Trash" button.
 [[./img/singledelete.png]]
-- The admin is also able to check the boxes next to the submissions and set the bulk action to "trash", then clicking apply to remove multiple submissions.
+- The Administrator is also able to check the boxes next to the submissions and set the bulk action to "trash", then clicking apply to remove multiple submissions.
 [[./img/multipledeletefunction.png]]
 - The removed submissions will be then moved to the trash section that can be found by selecting "Trash" button.
 [[./img/trashfolder.png]]
