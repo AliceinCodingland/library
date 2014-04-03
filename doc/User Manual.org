@@ -52,6 +52,8 @@
 [[temp]]
 - The admin can also move a submission to trash here by selecting "Move to Trash".
 [[temp]]
+- The admin is able to search by any field in a submission by changing the form field box to the desired field, filling in the search bar, then selecting search.
+[[temp]]
 
 ** Deleting submissions
 - The admin is able to delete a submission by placing the mouse pointer over the submission and selecting the red "trash" button
@@ -73,8 +75,20 @@
 [[temp]]
 - The admin is able to view and print submissions the same way as they can in the main folder.
 
-** Favoriting submissions
-- The admin is able to favorite submissions by selecting the star next to the submission
+** Starring submissions
+- The admin is able to star submissions by selecting the star next to the submission.  To unstar a submission the admin simply selects the star icon again.
 [[temp]]
-- The admin is also able to 
+- The admin is also able to star multiple submissions by checking the boxes next to the submissions, changing the bulk action to add star, then clicking apply.  They may star multiple sumissions by checking the boxes next to the submissions, changing the bulk action to "remove star", then clicking apply.
+[[temp]] [[temp]]
+- The admin can selectively view their starred submissions by selecting the Starred button on the screen.
+[[temp]]
+- The admin is able to complete all action in this folder the same way they would in the main folder.
 
+** Marking as read and unread
+- The admin is able to mark submissions as read or unread by placing the mouse pointer over the submission and then selecting the appropriate action.
+[[temp]] [[temp]]
+- The admin is also able to mark multiple submissions as read or unread by selecting the boxes next to the submissions, changing the bulk action to the appropriate action, then selecting apply.
+[[temp]] [[temp]]
+- The admin can selectively view the unread submissions by clicking on the "unread" button.
+[[temp]]
+- Here the admin can complete all actions they are able to in the main folder.
