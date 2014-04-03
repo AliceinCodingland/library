@@ -32,7 +32,7 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
 
 ** Data/Procedural Design
 - Overview
-  - Using Wordpress, Gravity forms, and JQuerry we will create a website that is separate from the current “Portal” request site that the SMCM staff user that will allow faculty members to reserve materials. These materials include electronic and physical. 
+  - Using Wordpress, Gravity forms, and JQuerry we will create a website that is separate from the current “Portal” reserve site that the SMCM staff user that will allow faculty members to reserve materials. These materials include electronic and physical. 
 - Features
   - Current Features
     - Form accessed with faculty user login.
@@ -69,7 +69,7 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
     - Focus on following wants and haves from the original request list
   - Design
     - User login
-    - Material/Electronic request form
+    - Material/Electronic item request form
     - Enter item's bibliographical information to reserve
     - Can upload pdf's with reserve submission
     - Email confirmation sent to faculty and library
@@ -80,10 +80,10 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
 ** Architecture Design
 - Performance Requirements
   - Input
-    - user wants to reservae a material type
+    - user wants to reserve a material type
     - user fills in bibliographical information for material
-    - user attaches desired material
-    - user submits request
+    - user attaches desired material (if applicable)
+    - user submits request for item(s)
   - Output
     - confirmation email to both parties.
     - library reserves item(s)
@@ -98,6 +98,8 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
   - Straight-forward and less confusing
   - "Tab" system for easy tracking of multiple submissions
   - Submission Confirmation emails
+    - Faculty user
+    - Library staff
 - Use Cases and Scenarios
   - Users
     - System Under Design
