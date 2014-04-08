@@ -12,7 +12,7 @@ Possible names are discussed below.
 - LibCoRe :: "Library Course Reserve"
 - PELICAN :: "Physical Electronic Library Internet Course Access Network"
 
-All names subject to change to avoid confusion and until satisfaction is acheived.
+All names subject to change to avoid confusion and until satisfaction is achieved.
 ** Purpose
 The Software is a complete re-write of a materials request form previously hosted on the Portal.
 Along with separating itself from the Portal system, the Software iterates on the previous form
@@ -50,7 +50,7 @@ The Software will allow the user to...
 - reserve electronic materials as well as physical materials
 - upload certain files they own to be distributed electronically
 - submit multiple requests
-- add notes to the request they are submiting
+- add notes to the request they are submitting
 - enter information about the material
 ** User Characteristics
 The users of the Software are the faculty Requesters submitting reserves on the Software,
@@ -120,4 +120,5 @@ The users of the Software are the faculty Requesters submitting reserves on the 
 *** Portability
 - There will be no mobile-specific site developed.
 
-#  LocalWords:  WordPress OpenID website
+#  LocalWords:  WordPress OpenID website PDFs OIT internet JavaScript
+#  LocalWords:  CoffeeScript Firefox
