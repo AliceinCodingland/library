@@ -1,8 +1,8 @@
 * Software Design Document
 See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia article]] for more information.
 
-** LEMURS
-- Library Electronic Material User Request Site
+** LIBCORR
+- Library Course Reserve Request
 - Software Design Document
 
 * Contents
