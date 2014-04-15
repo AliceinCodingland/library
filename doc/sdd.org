@@ -13,7 +13,7 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
 
 
 ** Introduction
-- The Library Electronic Material User Request Site (LEMURS) is a new website that is separate from “Portal” for the Library staff at St. Mary’s College of Maryland. The following documentation will include information on the design, functions, processes, and uses for the new website.
+- The Library Course Reserve Request (LIBCORR) is a new website that is separate from “Portal” for the Library staff at St. Mary’s College of Maryland. The following documentation will include information on the design, functions, processes, and uses for the new website.
   - Purpose:
     - A new user-friendly website that allows teachers to easily reserve and upload requests for the Library staff to execute.
   - Design:
@@ -25,7 +25,7 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
     - Will allow Faculty to submit multiple requests in one submission
     - User Manual documenting proper use and scenarios will also be made accessible with the site
   - Abbreviations and Definitions:
-    - LEMURS: Library Electronic Material User Request Site
+    - LIBCORR: Library Course Reserve Request
     - SMCM: St. Mary’s College of Maryland
     - Electronic: used to denote one of the 2 categories of materials. This category includes visual and audio materials such as news recordings, or pdf’s and electronic journal sections.
     - Physical: used to denote one of the 2 categories of materials. This category includes sections from books, DVDs, etc…
