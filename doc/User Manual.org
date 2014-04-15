@@ -5,6 +5,9 @@
 # The product is completely ready for use and the user has come to
 # this page merely seeking instruction on how to use it.
 
+# Avoid over-using the bullet lists; this is a professional document,
+# not an outline.
+
 * GENERAL INFORMATION
 
 ** System overview
@@ -15,93 +18,117 @@ It also allows the Library staff to view the submissions and respond to them
   (i.e. /print/, /delete/, or /mark as read/).
 This form works with all browsers and devices.
 
+
 * SYSTEM SUMMARY
 
 ** System Configuration
-- The website works on all browsers and devices.  It requires internet access to reserve and upload files to the database.  It also requires internet access to check and edit the reserves in the database.  Files in the database will also be viewable on all browsers and devices.
+The website works on all browsers and devices.
+It requires internet access to reserve and upload files to the database.
+It also requires internet access to check and edit the reserves in the database.
+Files in the database will also be viewable on all browsers and devices.
 
 ** User Access Levels
-- The site will be accessable to everyone, but the database of requests will only be available to the Library staff with the administrator wordpress login.
+The site will be accessable to everyone,
+  but the database of requests will only be available to
+  the Library staff with the administrator wordpress login.
 
 ** Contingincies
-- In the case of a loss of internet, the request will not be saved or submited.
-
+In the case of a loss of internet, the request will not be saved or submited.
 
 * GETTING STARTED
 
 ** Access
-- The course can be found online at [[]].
-- The Faculty will then have to login to WordPress to gain access to the form.
-
+The course can be found online at [[cosc480library.wpengine.com]].
+The Faculty will then have to login to WordPress to gain access to the form.
 
 ** Home Page
-- The site will consist of a single page that will dynamically change according to the desired reserve.  
-
-
-
+The site will consist of a single page that will dynamically change according to the desired reserve.  
 
 * ADMIN INFO
 
 ** Access and Logging in
-- The site can be found at [[]].
-- The Administrator will have to login with the proper admin Wordpress login.
+The site can be found at [[]].
+The Administrator will have to login with the proper admin Wordpress login.
 
 ** Accessing the submissions
-- From the Dashboard the Administrator will select the Submissions link in the lower middle box in the page, this will take the Administrator to the list of submissions from the Faculty.
+From the Dashboard the Administrator will select the Submissions link in the lower middle box in the page, this will take the Administrator to the list of submissions from the Faculty.
 [[./img/dashboarduserstuff.png]]
-- The Administrator is then able to select the specific form they would like to view.
+The Administrator is then able to select the specific form they would like to view.
 [[./img/databasestuff.png]]
 
 ** Viewing submissions
-- The Administrator can view each submission by placing the mouse over the submission and selecting "View".
+The Administrator can view each submission by placing the mouse over the submission and selecting "View".
 [[./img/view.png]]
-- After selecting "View" the Administrator will see this page (the information displayed will vary between submissions).
+
+After selecting "View" the Administrator will see this page (the information displayed will vary between submissions).
 [[./img/submissionview.png]]
-- The Administrator is then able to print the request by selecting the "Print" button.
+
+The Administrator is then able to print the request by selecting the "Print" button.
 [[./img/printsubmission.png]]
-- The Administrator can print multiple submissions by checking the boxes next to the submissions, changing the bulk action to "Print", then selecting "Apply".
+
+The Administrator can print multiple submissions by checking the boxes next to the submissions, changing the bulk action to "Print", then selecting "Apply".
 [[./img/bulkprint.png]]
-- The Administrator is also able to edit sumissions by selecting the "Edit" button and then changing the appropriate fields.
+
+The Administrator is also able to edit sumissions by selecting the "Edit" button and then changing the appropriate fields.
 [[./img/editinsubmission.png]]
-- The Administrator can also move a submission to "Trash" here by selecting the "Move to Trash" button.
+
+The Administrator can also move a submission to "Trash" here by selecting the "Move to Trash" button.
 [[./img/movetotrashinsubmission.png]]
-- The Administrator is able to search by any field in a submission by changing the form field box to the desired field, filling in the search bar, then selecting search.
+
+The Administrator is able to search by any field in a submission by changing the form field box to the desired field, filling in the search bar, then selecting search.
 [[./img/searchfunction.png]]
 
 ** Deleting submissions
-- The Administrator is able to delete a submission by placing the mouse pointer over the submission and selecting the red "Trash" button.
+
+The Administrator is able to delete a submission by placing the mouse pointer over the submission and selecting the red "Trash" button.
 [[./img/singledelete.png]]
-- The Administrator is also able to check the boxes next to the submissions and set the bulk action to "trash", then clicking apply to remove multiple submissions.
+
+The Administrator is also able to check the boxes next to the submissions and set the bulk action to "trash", then clicking apply to remove multiple submissions.
 [[./img/multipledeletefunction.png]]
-- The removed submissions will be then moved to the trash section that can be found by selecting "Trash" button.
+
+The removed submissions will be then moved to the trash section that can be found by selecting "Trash" button.
 [[./img/trashfolder.png]]
 [[./img/trashfolderview.png]]
-- In the trash section the admin can permanently remove the submission from the database by placing the mouse pointer over a submission and selecting "Delete Permanently".
+
+In the trash section the admin can permanently remove the submission from the database by placing the mouse pointer over a submission and selecting "Delete Permanently".
 [[./img/singledelete.png]]
-- The admin can also delete permantely by checking multiple submissions boxes and setting the bulk action to "delete permanently" and clicking apply.
+
+The admin can also delete permantely by checking multiple submissions boxes and setting the bulk action to "delete permanently" and clicking apply.
 [[./img/bulkdelete.png]]
-- The admin can also remove all submissions from Trash by selecting "Empty Trash".
+
+The admin can also remove all submissions from Trash by selecting "Empty Trash".
 [[./img/emptytrash.png]]
-- The admin is also able to place the submission back into the main section by placing the mouse pointer over the submission and selecting "Restore".
+
+The admin is also able to place the submission back into the main section by placing the mouse pointer over the submission and selecting "Restore".
 [[./img/singlerestore.png]]
-- The admin is also able to restore multiple submissions by checking multiple submissions boxes, setting the bulk action to "Restore", and selecting "Apply".
+
+The admin is also able to restore multiple submissions by checking multiple submissions boxes, setting the bulk action to "Restore", and selecting "Apply".
 [[./img/multiplerestore.png]]
-- The admin is able to view and print submissions the same way as they can in the main folder.
+
+The admin is able to view and print submissions the same way as they can in the main folder.
 
 ** Starring submissions
-- The admin is able to star submissions by selecting the star next to the submission.  To unstar a submission the admin simply selects the star icon again.
+
+The admin is able to star submissions by selecting the star next to the submission.  To unstar a submission the admin simply selects the star icon again.
 [[./img/starringsubmission.png]]
-- The admin is also able to star multiple submissions by checking the boxes next to the submissions, changing the bulk action to add star, then clicking apply.  They may star multiple sumissions by checking the boxes next to the submissions, changing the bulk action to "remove star", then clicking apply.
+
+The admin is also able to star multiple submissions by checking the boxes next to the submissions, changing the bulk action to add star, then clicking apply.  They may star multiple sumissions by checking the boxes next to the submissions, changing the bulk action to "remove star", then clicking apply.
 [[./img/bulkaddstar.png]] [[./img/bulkremovestar.png]]
-- The admin can selectively view their starred submissions by selecting the Starred button on the screen.
+
+The admin can selectively view their starred submissions by selecting the Starred button on the screen.
 [[./img/starredfolder.png]]
-- The admin is able to complete all action in this folder the same way they would in the main folder.
+
+The admin is able to complete all action in this folder the same way they would in the main folder.
 
 ** Marking as read and unread
-- The admin is able to mark submissions as read or unread by placing the mouse pointer over the submission and then selecting the appropriate action.
+
+The admin is able to mark submissions as read or unread by placing the mouse pointer over the submission and then selecting the appropriate action.
 [[./img/markasread.png]] [[./img/markasunread.png]]
-- The admin is also able to mark multiple submissions as read or unread by selecting the boxes next to the submissions, changing the bulk action to the appropriate action, then selecting apply.
+
+The admin is also able to mark multiple submissions as read or unread by selecting the boxes next to the submissions, changing the bulk action to the appropriate action, then selecting apply.
 [[./img/bulkmarkasread.png]] [[./img/bulkmarkasunread.png]]
-- The admin can selectively view the unread submissions by clicking on the "unread" button.
+
+The admin can selectively view the unread submissions by clicking on the "unread" button.
 [[./img/unreadfolder.png]]
-- Here the admin can complete all actions they are able to in the main folder.
+
+Here the admin can complete all actions they are able to in the main folder.
