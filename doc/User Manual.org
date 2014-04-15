@@ -81,7 +81,7 @@ The Administrator is able to search by any field in a submission by changing the
 ** Deleting submissions
 
 The Administrator is able to delete a submission by placing the mouse pointer over the submission and selecting the red "Trash" button.
-[[./img/singledelete.png]]
+[[./img/trashselect.png]]
 
 The Administrator is also able to check the boxes next to the submissions and set the bulk action to "trash", then clicking apply to remove multiple submissions.
 [[./img/multipledeletefunction.png]]
