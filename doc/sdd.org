@@ -83,12 +83,12 @@ See [[http://en.wikipedia.org/wiki/Software_design_document][the Wikipedia artic
 ** Architecture Design
 - Performance Requirements
   - Input
-    - user wants to reserve a material type
-    - user fills in bibliographical information for material
-    - user attaches desired material (if applicable)
-    - user submits request for item(s)
+    - User wants to reserve a material type
+    - User fills in bibliographical information for material
+    - User attaches desired material (if applicable)
+    - User submits request for item(s)
   - Output
-    - confirmation email to both parties.
+    - Confirmation email to both parties.
     - Library reserves item(s)
     - Library prints/gathers item(s) for user
 ** Interface Design
