@@ -11,7 +11,7 @@
 * GENERAL INFORMATION
 
 ** System overview
-LIBCORR is a Wordpress-powered website that
+LIBCORR is a WordPress-powered website that
   allows the faculty of St. Mary's College of Maryland
   to reserve electronic or physical materials for their classes.
 It also allows the Library staff to view the submissions and respond to them
@@ -28,12 +28,12 @@ It also requires internet access to check and edit the reserves in the database.
 Files in the database will also be viewable on all browsers and devices.
 
 ** User Access Levels
-The site will be accessable to everyone,
+The site will be accessible to everyone,
   but the database of requests will only be available to
-  the Library staff with the administrator wordpress login.
+  the Library staff with the administrator WordPress login.
 
-** Contingincies
-In the case of a loss of internet, the request will not be saved or submited.
+** Contingencies
+In the case of a loss of internet, the request will not be saved or submitted.
 
 * GETTING STARTED
 
@@ -69,7 +69,7 @@ The Administrator is then able to print the request by selecting the "Print" but
 The Administrator can print multiple submissions by checking the boxes next to the submissions, changing the bulk action to "Print", then selecting "Apply".
 [[./img/bulkprint.png]]
 
-The Administrator is also able to edit sumissions by selecting the "Edit" button and then changing the appropriate fields.
+The Administrator is also able to edit submissions by selecting the "Edit" button and then changing the appropriate fields.
 [[./img/editinsubmission.png]]
 
 The Administrator can also move a submission to "Trash" here by selecting the "Move to Trash" button.
@@ -93,7 +93,7 @@ The removed submissions will be then moved to the trash section that can be foun
 In the trash section the admin can permanently remove the submission from the database by placing the mouse pointer over a submission and selecting "Delete Permanently".
 [[./img/singledelete.png]]
 
-The admin can also delete permantely by checking multiple submissions boxes and setting the bulk action to "delete permanently" and clicking apply.
+The admin can also delete permanently by checking multiple submissions boxes and setting the bulk action to "delete permanently" and clicking apply.
 [[./img/bulkdelete.png]]
 
 The admin can also remove all submissions from Trash by selecting "Empty Trash".
@@ -112,7 +112,7 @@ The admin is able to view and print submissions the same way as they can in the 
 The admin is able to star submissions by selecting the star next to the submission.  To unstar a submission the admin simply selects the star icon again.
 [[./img/starringsubmission.png]]
 
-The admin is also able to star multiple submissions by checking the boxes next to the submissions, changing the bulk action to add star, then clicking apply.  They may star multiple sumissions by checking the boxes next to the submissions, changing the bulk action to "remove star", then clicking apply.
+The admin is also able to star multiple submissions by checking the boxes next to the submissions, changing the bulk action to add star, then clicking apply.  They may star multiple submissions by checking the boxes next to the submissions, changing the bulk action to "remove star", then clicking apply.
 [[./img/bulkaddstar.png]] [[./img/bulkremovestar.png]]
 
 The admin can selectively view their starred submissions by selecting the Starred button on the screen.
@@ -132,3 +132,5 @@ The admin can selectively view the unread submissions by clicking on the "unread
 [[./img/unreadfolder.png]]
 
 Here the admin can complete all actions they are able to in the main folder.
+
+#  LocalWords:  website internet WordPress LIBCORR unstar
