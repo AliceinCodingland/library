@@ -52,84 +52,84 @@ The Administrator will have to login with the proper admin Wordpress login.
 
 ** Accessing the submissions
 From the Dashboard the Administrator will select the Submissions link in the lower middle box in the page, this will take the Administrator to the list of submissions from the Faculty.
-[[./img/dashboarduserstuff.png]]
+[[./img/1-dashboarduserstuff.png]]
 The Administrator is then able to select the specific form they would like to view.
-[[./img/databasestuff.png]]
+[[./img/2-databasestuff.png]]
 
 ** Viewing submissions
 The Administrator can view each submission by placing the mouse over the submission and selecting "View".
-[[./img/view.png]]
+[[./img/3-view.png]]
 
 After selecting "View" the Administrator will see this page (the information displayed will vary between submissions).
-[[./img/submissionview.png]]
+[[./img/4-submissionview.png]]
 
 The Administrator is then able to print the request by selecting the "Print" button.
-[[./img/printsubmission.png]]
+[[./img/5-printsubmission.png]]
 
 The Administrator can print multiple submissions by checking the boxes next to the submissions, changing the bulk action to "Print", then selecting "Apply".
-[[./img/bulkprint.png]]
+[[./img/6-bulkprint.png]]
 
 The Administrator is also able to edit submissions by selecting the "Edit" button and then changing the appropriate fields.
-[[./img/editinsubmission.png]]
+[[./img/7-editinsubmission.png]]
 
 The Administrator can also move a submission to "Trash" here by selecting the "Move to Trash" button.
-[[./img/movetotrashinsubmission.png]]
+[[./img/8-movetotrashinsubmission.png]]
 
 The Administrator is able to search by any field in a submission by changing the form field box to the desired field, filling in the search bar, then selecting search.
-[[./img/searchfunction.png]]
+[[./img/9-searchfunction.png]]
 
 ** Deleting submissions
 
 The Administrator is able to delete a submission by placing the mouse pointer over the submission and selecting the red "Trash" button.
-[[./img/trashselect.png]]
+[[./img/10-trashselect.png]]
 
 The Administrator is also able to check the boxes next to the submissions and set the bulk action to "trash", then clicking apply to remove multiple submissions.
-[[./img/multipledeletefunction.png]]
+[[./img/11-multipledeletefunction.png]]
 
 The removed submissions will be then moved to the trash section that can be found by selecting "Trash" button.
-[[./img/trashfolder.png]]
-[[./img/trashfolderview.png]]
+[[./img/12-trashfolder.png]]
+[[./img/13-trashfolderview.png]]
 
 In the trash section the admin can permanently remove the submission from the database by placing the mouse pointer over a submission and selecting "Delete Permanently".
-[[./img/singledelete.png]]
+[[./img/14-singledelete.png]]
 
 The admin can also delete permanently by checking multiple submissions boxes and setting the bulk action to "delete permanently" and clicking apply.
-[[./img/bulkdelete.png]]
+[[./img/15-bulkdelete.png]]
 
 The admin can also remove all submissions from Trash by selecting "Empty Trash".
-[[./img/emptytrash.png]]
+[[./img/16-emptytrash.png]]
 
 The admin is also able to place the submission back into the main section by placing the mouse pointer over the submission and selecting "Restore".
-[[./img/singlerestore.png]]
+[[./img/17-singlerestore.png]]
 
 The admin is also able to restore multiple submissions by checking multiple submissions boxes, setting the bulk action to "Restore", and selecting "Apply".
-[[./img/multiplerestore.png]]
+[[./img/18-multiplerestore.png]]
 
 The admin is able to view and print submissions the same way as they can in the main folder.
 
 ** Starring submissions
 
 The admin is able to star submissions by selecting the star next to the submission.  To unstar a submission the admin simply selects the star icon again.
-[[./img/starringsubmission.png]]
+[[./img/19-starringsubmission.png]]
 
 The admin is also able to star multiple submissions by checking the boxes next to the submissions, changing the bulk action to add star, then clicking apply.  They may star multiple submissions by checking the boxes next to the submissions, changing the bulk action to "remove star", then clicking apply.
-[[./img/bulkaddstar.png]] [[./img/bulkremovestar.png]]
+[[./img/20-bulkaddstar.png]] [[./img/21-bulkremovestar.png]]
 
 The admin can selectively view their starred submissions by selecting the Starred button on the screen.
-[[./img/starredfolder.png]]
+[[./img/22-starredfolder.png]]
 
 The admin is able to complete all action in this folder the same way they would in the main folder.
 
 ** Marking as read and unread
 
 The admin is able to mark submissions as read or unread by placing the mouse pointer over the submission and then selecting the appropriate action.
-[[./img/markasread.png]] [[./img/markasunread.png]]
+[[./img/23-markasread.png]] [[./img/24-markasunread.png]]
 
 The admin is also able to mark multiple submissions as read or unread by selecting the boxes next to the submissions, changing the bulk action to the appropriate action, then selecting apply.
-[[./img/bulkmarkasread.png]] [[./img/bulkmarkasunread.png]]
+[[./img/25-bulkmarkasread.png]] [[./img/26-bulkmarkasunread.png]]
 
 The admin can selectively view the unread submissions by clicking on the "unread" button.
-[[./img/unreadfolder.png]]
+[[./img/27-unreadfolder.png]]
 
 Here the admin can complete all actions they are able to in the main folder.
 
