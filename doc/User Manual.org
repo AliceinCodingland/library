@@ -10,7 +10,7 @@
 
 * GENERAL INFORMATION
 
-** System overview
+** System Overview
 LIBCORR is a WordPress-powered website that
   allows the faculty of St. Mary's College of Maryland
   to reserve electronic or physical materials for their classes.
