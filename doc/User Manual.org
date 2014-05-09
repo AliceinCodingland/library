@@ -44,6 +44,62 @@ The Faculty will then have to login to WordPress to gain access to the form.
 ** Home Page
 The site will consist of a single page that will dynamically change according to the desired reserve.  
 
+* User INFO
+
+** IN THE TABS
+To request multiple materials on one form, you must use the tabs. You can create as many tabs as you need materials. While filling out the form, you may switch between tabs or delete them as you see fit by clicking on the tabs to the left.
+[[./img/Faculty-1requesttab.png]]
+
+** ON THE FORM
+
+For every field marked with an asterisk, you must fill out that field.
+For instance:
+
+[[./img/Faculty-2textfield.png]]
+
+You must type your name in that box.
+
+Some fields need input to be in a particular format.
+For instance:
+
+[[./img/Faculty-3callnumber1.png]]
+
+For this field, your input would have to consist of two letters, then four numbers, then one letter, and then two numbers. Do not worry about including the periods in the call number; if you click on the field, you’ll see that they are filled in automatically:
+
+[[./img/Faculty-4callnumber2.png]]
+
+Not all of the fields have input you simply type in. When you click on the “Date material needed” field, a drop-down calendar will appear:
+
+[[./img/Faculty-5datebox.png]]
+
+If you click on the 21st of May 2014, for instance, the calendar will disappear and the field will fill out accordingly, like below:
+
+[[./img/Faculty-6dateselection.png]]
+
+You might notice that some of the dates are greyed out and cannot be chosen. This reflects that you cannot require a material to be available within 72 hours or less.
+If you want to pick a date in an upcoming month, then use the right arrow at the top of the calendar to move to that month.
+
+You will be asked to specify the type of reserve you are requesting. Click on the drop-down menu and your options will appear:
+
+[[./img/Faculty-7reservetype.png]]
+
+**** E-Reserve
+reserving electronic materials
+**** Material
+reserving a hard copy
+**** Reactivate
+renewing a previous request for a material
+
+If you have a digital copy of the material you wish to reserve, you can upload it by clicking “Choose File” and searching through your computer for the file. The button will look like this:
+
+[[./img/Faculty-8fileupload.png]]
+
+To finish the reservation simply select the "Submit" button at the bottom of the screen.
+
+[[./img/Faculty-9submitbutton.png]]
+
+
+
 * ADMIN INFO
 
 ** Access and Logging in
