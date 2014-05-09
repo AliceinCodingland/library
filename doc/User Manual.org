@@ -44,6 +44,8 @@ The Faculty will then have to login to WordPress to gain access to the form.
 ** Home Page
 The site will consist of a single page that will dynamically change according to the desired reserve.  
 
+* User INFO
+
 * ADMIN INFO
 
 ** Access and Logging in
